@@ -1,0 +1,26 @@
+{
+  "name": "unsad",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "UnSad Website Prototype",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTech314/UnSad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTech314/UnSad/issues"
+  },
+  "homepage": "https://github.com/AlexTech314/UnSad#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
